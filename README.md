@@ -14,6 +14,9 @@
 - from django.urls import include
 - - path('{option}',include('{app_name}.urls')
 # Views.py
-- form django.http import HttpResponse 
+- form django.http import HttpResponse
+- def index(request):</br>
+  return HttpResponce("Hello World")
+     
 
 
