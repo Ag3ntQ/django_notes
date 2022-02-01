@@ -20,13 +20,13 @@
 - Add path in "urlpatterns= [ ]"
 - <code>path('{option}',include('{app_name}.urls')</code>
 # 💡Views.py
-- form django.http import HttpResponse
-- def index(request):</br>
-  return HttpResponce("Hello World")
-- def todopage(request):</br>
-  return render(request,"index.html")
+- <code>form django.http import HttpResponse</code>
+- HttpRsponce for 'text-response'</br>
+<code>return HttpResponce("Hello World")</code>
+- render - mapping file</br>
+<code>return render(request,"index.html")</code>
 # 💡 Templates
-- html file => app/templates
+- html file save in app/templates
 - <a href="https://docs.djangoproject.com/en/4.0/ref/templates/language/">Template language</a>
    
 
