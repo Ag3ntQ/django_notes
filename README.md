@@ -21,7 +21,9 @@
   return HttpResponce("Hello World")
 - def todopage(request):</br>
   return render(request,"index.html")
-  
+# 💡 Templates
+- html file => app/templates
+- <a href="https://docs.djangoproject.com/en/4.0/ref/templates/language/">Template language</a>
 
      
 
