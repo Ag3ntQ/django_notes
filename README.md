@@ -3,18 +3,22 @@
 
 # ☢️Error
 - Time_Zone <a href="https://github.com/Ag3ntQ/Django_TimeZone_solution">Click here for solution</a>
-# 💡Start project 
+# 📌Part 1
+# 💡Start New project
 - django-admin startproject <project_name>
-- django-admin startproject todo
-
-# 💡New App
-- python manage.py startapp day ( day is app name )
-- Config with settings.py
-   - INSTALLED_APPS =[ day.apps.DayConfig, ]
-- config app urls.py with project urls.py
+<code> django-admin startproject todo</code>
+# 💡 Create New App
+<code>python manage.py startapp day</code>
+- Here 'day' is app name 
+- THEN Config app with settings.py
+<code>INSTALLED_APPS =[
+.... day.apps.DayConfig,]</code>
+- here 'day' is app name,apps,'DayConfig' got from class name in "apps.py"
+- and config app urls.py with project urls.py
 # 💡Project urls.py
-- from django.urls import include
-- - path('{option}',include('{app_name}.urls')
+- <code>from django.urls import include</code>
+- Add path in "urlpatterns= [ ]"
+- <code>path('{option}',include('{app_name}.urls')</code>
 # 💡Views.py
 - form django.http import HttpResponse
 - def index(request):</br>
@@ -24,7 +28,6 @@
 # 💡 Templates
 - html file => app/templates
 - <a href="https://docs.djangoproject.com/en/4.0/ref/templates/language/">Template language</a>
-
-     
+   
 
 
