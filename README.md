@@ -33,4 +33,15 @@
 - <code>python manage.py runserver 8000</code>
 # 📌Part 2
 # 💡models.py
+![CHEESE!](modelfile.jpg)
+- models.CharField(max_length=30)
+- models.TextChoices("A", "B")
+- models.IntegerField()"
+- models.FloatField()
+- models.FileField(upload_to=file)
+- models.DateField()
+- models.BooleanField(**options)
+- models.EmailField(max_length=250)
+- models.ImageField(upload_to=None)
+- models.URLField(max_length=200)
 
