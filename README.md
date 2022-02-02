@@ -44,4 +44,6 @@
 - models.EmailField(max_length=250)
 - models.ImageField(upload_to=None)
 - models.URLField(max_length=200)
-
+# 💡admin.py
+![CHEESE!](modeladmin.jpg)
+- <code>admin.site.register({class_name})</code> for register models with admin panel
