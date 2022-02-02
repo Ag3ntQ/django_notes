@@ -7,11 +7,12 @@
 - django-admin startproject <project_name>
 <code> django-admin startproject todo</code>
 # 💡 Create New App
-<code>python manage.py startapp tasks</code>
-- Here 'day' is app name 
+<code>python manage.py startapp task</code>
+- Here 'task' is app name 
 - THEN Config app with settings.py
+![CHEESE!](appconfig.jpg)
 <code>INSTALLED_APPS =[
-.... tasks.apps.TasksConfig,]</code>
+.... task.apps.TaskConfig,]</code>
 - here 'tasks' is app name,apps,'TasksConfig' got from class name in "apps.py"
 - and config app urls.py with project urls.py
 # 💡Project urls.py
@@ -27,6 +28,9 @@
 # 💡 Templates
 - html file save in app/templates
 - <a href="https://docs.djangoproject.com/en/4.0/ref/templates/language/">Template language</a>
+# 💡 Local hosting
+- Start a local web server
+- <code>python manage.py runserver 8000</code>
 # 📌Part 2
 # 💡models.py
 
