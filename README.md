@@ -27,6 +27,6 @@
 # 💡 Templates
 - html file save in app/templates
 - <a href="https://docs.djangoproject.com/en/4.0/ref/templates/language/">Template language</a>
-   
-
+# 📌Part 2
+# 💡models.py
 
