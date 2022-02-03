@@ -59,7 +59,7 @@
 - <code>file : views.py </code>
 - view data from database to pages
 - add Django form to page
-# Form validation
+# 💡Form validation
 ![CHEESE!](FormDb.jpg)
 - <code>file : views.py</code>
 - form validation
