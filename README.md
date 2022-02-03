@@ -40,7 +40,7 @@
 - models.FloatField()
 - models.FileField(upload_to=file)
 - models.DateField()
-- models.BooleanField(**options)
+- models.BooleanField(default=False)
 - models.EmailField(max_length=250)
 - models.ImageField(upload_to=None)
 - models.URLField(max_length=200)
