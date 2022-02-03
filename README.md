@@ -48,6 +48,7 @@
 ![CHEESE!](modeladmin.jpg)
 - <code>admin.site.register({class_name})</code> for register models with admin panel
 # 💡forms.py
+![CHEESE!](form.jpg)
 - creating HTML forms for the data
 - receiving and processing submitted forms and data from the client
-![CHEESE!](form.jpg)
+
