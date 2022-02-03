@@ -5,7 +5,7 @@
 # 📌Part 1
 # 💡Start New project
 - django-admin startproject <project_name>
-<code> django-admin startproject todo</code>
+- <code> django-admin startproject todo</code>
 # 💡 Create New App
 <code>python manage.py startapp task</code>
 - Here 'task' is app name 
@@ -51,7 +51,7 @@
 - <code>admin.site.register({class_name})</code> for register models with admin panel
 # 💡 Make forms
 ![CHEESE!](form.jpg)
-- <code>file : forms.py </code<
+- <code>file : forms.py </code>
 - creating HTML forms for the data
 - receiving and processing submitted forms and data from the client
 # 💡Data from Db to views
