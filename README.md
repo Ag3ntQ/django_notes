@@ -51,4 +51,7 @@
 ![CHEESE!](form.jpg)
 - creating HTML forms for the data
 - receiving and processing submitted forms and data from the client
-
+# 💡views.py
+![CHEESE!](views2.jpg)
+- add data from database to pages
+- add Django form to page
