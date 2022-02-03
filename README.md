@@ -32,8 +32,9 @@
 - Start a local web server
 - <code>python manage.py runserver 8000</code>
 # 📌Part 2
-# 💡models.py
+# 💡Modeling
 ![CHEESE!](modelfile.jpg)
+- <code>file : models.py </code>
 - models.CharField(max_length=30)
 - models.TextChoices("A", "B")
 - models.IntegerField()"
@@ -44,14 +45,23 @@
 - models.EmailField(max_length=250)
 - models.ImageField(upload_to=None)
 - models.URLField(max_length=200)
-# 💡admin.py
+# 💡Models link with admin page
 ![CHEESE!](modeladmin.jpg)
+- <code>file : admin.py </code>
 - <code>admin.site.register({class_name})</code> for register models with admin panel
-# 💡forms.py
+# 💡 Make forms
 ![CHEESE!](form.jpg)
+- <code>file : forms.py </code<
 - creating HTML forms for the data
 - receiving and processing submitted forms and data from the client
-# 💡views.py
+# 💡Data from Db to views
 ![CHEESE!](views2.jpg)
-- add data from database to pages
+- <code>file : views.py </code>
+- view data from database to pages
 - add Django form to page
+# Form validation
+![CHEESE!](FormDb.jpg)
+- <code>file : views.py</code>
+- form validation
+- <code>from django.shortcuts import redirect</code>
+- Save Data to Database
