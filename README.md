@@ -26,7 +26,7 @@
 - render - mapping file</br>
 <code>return render(request,"index.html")</code>
 # 💡 Templates
-- html file save in app/templates
+- template file save in app/templates
 - <a href="https://docs.djangoproject.com/en/4.0/ref/templates/language/">Template language</a>
 # 💡 Local hosting
 - Start a local web server
@@ -47,3 +47,7 @@
 # 💡admin.py
 ![CHEESE!](modeladmin.jpg)
 - <code>admin.site.register({class_name})</code> for register models with admin panel
+# 💡forms.py
+- creating HTML forms for the data
+- receiving and processing submitted forms and data from the client
+![CHEESE!](form.jpg)
