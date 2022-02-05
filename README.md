@@ -7,11 +7,11 @@
 - django-admin startproject <project_name>
 - <code> django-admin startproject todo</code>
 # 💡 Create New App
-<code>python manage.py startapp task</code>
+- <code>python manage.py startapp task</code>
 - Here 'task' is app name 
 - THEN Config app with settings.py
 ![CHEESE!](appconfig.jpg)
-<code>INSTALLED_APPS =[
+- <code>INSTALLED_APPS =[
 .... task.apps.TaskConfig,]</code>
 - here 'tasks' is app name,apps,'TasksConfig' got from class name in "apps.py"
 - and config app urls.py with project urls.py
@@ -20,7 +20,7 @@
 - Add path in "urlpatterns= [ ]"
 - <code>path('{option}',include('{app_name}.urls')</code>
 # 💡Views.py
-- <code>form django.http import HttpResponse</code>
+- <code>from django.http import HttpResponse</code>
 - HttpRsponce for 'text-response'</br>
 <code>return HttpResponce("Hello World")</code>
 - render - mapping file</br>
